@@ -29,7 +29,7 @@ public class mainMenuScript : MonoBehaviour {
 	void Start () {
 		globalSettings = GameObject.Find("GlobalSettings");
 		script = (globalSettingsScript) globalSettings.GetComponent("globalSettingsScript");
-		//script.resetGameStats();
+		//
 		
 	}
 	
@@ -40,7 +40,7 @@ public class mainMenuScript : MonoBehaviour {
 
 	void OnGUI(){
 		if(GUI.Button(new Rect(sbx,sby,sbw,sbh),"Start")){
-			
+			script.resetGameStats();
 			Application.LoadLevel("gameScreen");	
 		}
 		if(GUI.Button(new Rect(stbx,stby,stbw,stbh),"Settings")){

@@ -1,6 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/gameScreenScript.cs">
+    <Files>
+      <File FileName="Assets/MasterBirdScript.cs" Line="26" Column="4" />
+      <File FileName="Assets/UIScenes/mainMenuScript.cs" Line="41" Column="15" />
+      <File FileName="Assets/gameScreenScript.cs" Line="37" Column="5" />
+      <File FileName="Assets/UIScenes/globalSettingsScript.cs" Line="19" Column="1" />
+      <File FileName="Assets/UIScenes/gameOverScript.cs" Line="30" Column="40" />
+      <File FileName="Assets/UIScenes/bootScript.cs" Line="29" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

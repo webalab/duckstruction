@@ -44,7 +44,27 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game 1 - Catch eggs\Scripts\EggCollider.cs" />
+     <Compile Include="Assets\Game 1 - Catch eggs\Scripts\EggScript.cs" />
+     <Compile Include="Assets\Game 1 - Catch eggs\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Game 1 - Catch eggs\Scripts\SpawnerScript.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\EdgeTrigger.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\GameGUI.cs" />
+     <Compile Include="Assets\Game 2 - Jump game\Scripts\Playermovement.cs" />
+     <Compile Include="Assets\Game 3 - Marble game\Scripts\GameoverTrigger.cs" />
+     <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleCamera.cs" />
+     <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleControl.cs" />
+     <Compile Include="Assets\Game 3 - Marble game\Scripts\MarbleGameManager.cs" />
+     <Compile Include="Assets\Game 4 - 3D breakout\Scripts\Ball.cs" />
+     <Compile Include="Assets\Game 4 - 3D breakout\Scripts\Block.cs" />
+     <Compile Include="Assets\Game 4 - 3D breakout\Scripts\BreakoutGame.cs" />
+     <Compile Include="Assets\Game 4 - 3D breakout\Scripts\Paddle.cs" />
+     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\ObjectSpawner.cs" />
+     <Compile Include="Assets\Game 5 - Shooting gallery\Scripts\PlayerInput.cs" />
      <Compile Include="Assets\MasterBirdScript.cs" />
+     <Compile Include="Assets\UIScenes\bootScript.cs" />
      <Compile Include="Assets\UIScenes\gameOverScript.cs" />
      <Compile Include="Assets\UIScenes\globalSettingsScript.cs" />
      <Compile Include="Assets\UIScenes\mainMenuScript.cs" />
@@ -56,6 +76,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -69,6 +90,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Gem Rendering\diamond shader.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
